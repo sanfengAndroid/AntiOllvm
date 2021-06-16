@@ -1,0 +1,7 @@
+build/
+.vscode/
+*.bc
+*.ll
+*.idb
+*.idb64
+*-compile
