@@ -7,43 +7,45 @@
 - 未混淆二进制文件 [test-md5](../bin/binary-32-arm-android)
 - 混淆后的二进制文件 [test-md5-obf](../bin/binary-32-arm-android)
 - 去混淆后的二进制文件 [test-md5-obf-anti](../bin/binary-32-arm-android)
+- 可以自行下载上述文件分析
 
 ## 未添加混淆时
 
 - `MD5_Update` 未混淆的 CFG 如下:
-  ![CFG](../img/MD5_Update_cfg_unobf.png)
+  ![CFG](img/MD5_Update_cfg_unobf.png)
   它的 C 伪代码如下:
-  ![CODE](../img/MD5_Update_code_unobf.png)
+  ![CODE](img/MD5_Update_code_unobf.png)
 
 - `md5_block_data_order` 未混淆的 CFG
-  ![CFG](../img/md5_block_data_order_cfg_unobf.png)
+  ![CFG](img/md5_block_data_order_cfg_unobf.png)
   C 伪代码:
-  ![CODE](../img/md5_block_data_order_code_unobf.png)
+  ![CODE](img/md5_block_data_order_code_unobf.png)
 
 ## 添加混淆后
 
 - `MD5_Update` 混淆的 CFG 如下:
-  ![CFG](../img/MD5_Update_cfg_obf.png)
+  ![CFG](img/MD5_Update_cfg_obf.png)
   它的 C 伪代码如下:
-  ![](../img/MD5_Update_code_obf.png)
+  ![](img/MD5_Update_code_obf.png)
 
 - `md5_block_data_order` 混淆的 CFG
-  ![CODE](../img/md5_block_data_order_cfg_obf.png)
+  ![CODE](img/md5_block_data_order_cfg_obf.png)
   C 伪代码:
-  ![](../img/md5_block_data_order_code_obf.png)
+  ![](img/md5_block_data_order_code_obf.png)
 
 ## 去混淆后
 
 - `MD5_Update` 去混淆后的 CFG
-  ![CFG](../img/MD5_Update_cfg_antiobf.png)
+  ![CFG](img/MD5_Update_cfg_antiobf.png)
   它的 C 伪代码如下:
-  ![CODE](../img/MD5_Update_code_antiobf.png)
+  ![CODE](img/MD5_Update_code_antiobf.png)
 
 - `md5_block_data_order` 去混淆的 CFG
-  ![CFG](../img/md5_block_data_order_cfg_antiobf.png)
+  ![CFG](img/md5_block_data_order_cfg_antiobf.png)
   C 伪代码:
-  ![CODE](../img/md5_block_data_order_code_antiobf.png)
+  ![CODE](img/md5_block_data_order_code_antiobf.png)
 
 ## 代码运行演示
 
-![gif](../img/test-md5-video.gif)
+![gif](img/test-md5-video.gif)
+
