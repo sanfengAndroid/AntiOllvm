@@ -12,40 +12,40 @@
 ## 未添加混淆时
 
 - `MD5_Update` 未混淆的 CFG 如下:
-  ![CFG](img/MD5_Update_cfg_unobf.png)
+  ![CFG](https://cdn.jsdelivr.net/gh/sanfengAndroid/AntiOllvm@main/OpenSSLTest/doc/img/MD5_Update_cfg_unobf.png)
   它的 C 伪代码如下:
-  ![CODE](img/MD5_Update_code_unobf.png)
+  ![CODE](https://cdn.jsdelivr.net/gh/sanfengAndroid/AntiOllvm@main/OpenSSLTest/doc/img/MD5_Update_code_unobf.png)
 
 - `md5_block_data_order` 未混淆的 CFG
-  ![CFG](img/md5_block_data_order_cfg_unobf.png)
+  ![CFG](https://cdn.jsdelivr.net/gh/sanfengAndroid/AntiOllvm@main/OpenSSLTest/doc/img/md5_block_data_order_cfg_unobf.png)
   C 伪代码:
-  ![CODE](img/md5_block_data_order_code_unobf.png)
+  ![CODE](https://cdn.jsdelivr.net/gh/sanfengAndroid/AntiOllvm@main/OpenSSLTest/doc/img/md5_block_data_order_code_unobf.png)
 
 ## 添加混淆后
 
 - `MD5_Update` 混淆的 CFG 如下:
-  ![CFG](img/MD5_Update_cfg_obf.png)
+  ![CFG](https://cdn.jsdelivr.net/gh/sanfengAndroid/AntiOllvm@main/OpenSSLTest/doc/img/MD5_Update_cfg_obf.png)
   它的 C 伪代码如下:
-  ![](img/MD5_Update_code_obf.png)
+  ![](https://cdn.jsdelivr.net/gh/sanfengAndroid/AntiOllvm@main/OpenSSLTest/doc/img/MD5_Update_code_obf.png)
 
 - `md5_block_data_order` 混淆的 CFG
-  ![CODE](img/md5_block_data_order_cfg_obf.png)
+  ![CODE](https://cdn.jsdelivr.net/gh/sanfengAndroid/AntiOllvm@main/OpenSSLTest/doc/img/md5_block_data_order_cfg_obf.png)
   C 伪代码:
-  ![](img/md5_block_data_order_code_obf.png)
+  ![](https://cdn.jsdelivr.net/gh/sanfengAndroid/AntiOllvm@main/OpenSSLTest/doc/img/md5_block_data_order_code_obf.png)
 
 ## 去混淆后
 
 - `MD5_Update` 去混淆后的 CFG
-  ![CFG](img/MD5_Update_cfg_antiobf.png)
+  ![CFG](https://cdn.jsdelivr.net/gh/sanfengAndroid/AntiOllvm@main/OpenSSLTest/doc/img/MD5_Update_cfg_antiobf.png)
   它的 C 伪代码如下:
-  ![CODE](img/MD5_Update_code_antiobf.png)
+  ![CODE](https://cdn.jsdelivr.net/gh/sanfengAndroid/AntiOllvm@main/OpenSSLTest/doc/img/MD5_Update_code_antiobf.png)
 
 - `md5_block_data_order` 去混淆的 CFG
-  ![CFG](img/md5_block_data_order_cfg_antiobf.png)
+  ![CFG](https://cdn.jsdelivr.net/gh/sanfengAndroid/AntiOllvm@main/OpenSSLTest/doc/img/md5_block_data_order_cfg_antiobf.png)
   C 伪代码:
-  ![CODE](img/md5_block_data_order_code_antiobf.png)
+  ![CODE](https://cdn.jsdelivr.net/gh/sanfengAndroid/AntiOllvm@main/OpenSSLTest/doc/img/md5_block_data_order_code_antiobf.png)
 
 ## 代码运行演示
 
-![gif](img/test-md5-video.gif)
+![gif](https://cdn.jsdelivr.net/gh/sanfengAndroid/AntiOllvm@main/OpenSSLTest/doc/img/test-md5-video.gif)
 
