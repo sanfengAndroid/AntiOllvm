@@ -38,15 +38,18 @@
 - [OpenSSL 测试](OpenSSLTest/doc/README_CN.md)
 - [Arm64 测试](Arm64Test/README_CN.md)
 
-## 引用
-
-### retdec [https://github.com/avast/retdec](https://github.com/avast/retdec)
-
-### LLVM [https://github.com/llvm/llvm-project](https://github.com/llvm/llvm-project/)
-
+## 软件购买
+软件会在近期内发布版本，请关注上方公众号，或关注本仓库。开放后会第一时间更新
 
 ## 软件未来
 - 开放`X86`,`X86_64` 去混淆支持
 - IDA 插件，便捷式去混淆，使用IDA分析结果更好优化去混淆
 - 开发模拟执行，实现在PC上实现跨平台二进制文件跟踪运行，例如算法分析等等
 - IDA 虚拟调试，建立在模拟执行上
+
+
+## 引用
+
+### retdec [https://github.com/avast/retdec](https://github.com/avast/retdec)
+
+### LLVM [https://github.com/llvm/llvm-project](https://github.com/llvm/llvm-project/)
