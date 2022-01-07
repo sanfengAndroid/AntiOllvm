@@ -32,35 +32,45 @@
 
 ### 去混淆效果对比
 - JNI_ONLoad  
+
 去混淆之前  
-![JNI_ONLoad_before](img/JNI_OnLoad_obf.png)
+![JNI_ONLoad_before](img/JNI_OnLoad_obf.png)  
+
 去混淆之后  
 ![JNI_ONLoad_after](img/JNI_OnLoad_antiobf.png)
 
 - sub_12AE4  
+
 去混淆之前  
-![sub_12ae4_before](img/sub_12AE4_obf.png)
+![sub_12ae4_before](img/sub_12AE4_obf.png)  
+
 去混淆之后  
 ![sub_12ae4_after](img/sub_12AE4_antiobf.png)
 
 - sub_1D1E8  
+
 去混淆之前  
-![sub_1d1e8_before](img/sub_1D1E8_obf.png)
+![sub_1d1e8_before](img/sub_1D1E8_obf.png)  
+
 去混淆之后  
 ![sub_1d1e8_after](img/sub_1D1E8_antiobf.png)
 
 - sub_26300  
+
 去混淆之前  
-![sub_26300_before](img/sub_26300_obf.png)
+![sub_26300_before](img/sub_26300_obf.png)  
+
 去混淆之后  
 ![sub_26300_after](img/sub_26300_antiobf.png)
 
 - sub_1B89C  
+
 去混淆之前  
-![sub_1b89c_before](img/sub_1B89C_obf.png)
+![sub_1b89c_before](img/sub_1B89C_obf.png)  
+
 去混淆之后  
 ![sub_1b89c_after](img/sub_1B89C_antiobf.png)
 
 ### 演示视频
-[视频地址](video/kanxueollvm.mp4)
-<video src="video/kanxueollvm.mp4" controls="controls" width="100%" height="auto"/>
+[视频地址](video/kanxueollvm2.mp4)
+<video src="video/kanxueollvm2.mp4" controls="controls" width="100%" height="auto"/>
