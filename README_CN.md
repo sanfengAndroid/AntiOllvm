@@ -26,7 +26,7 @@
 - 目前可能存在一些问题，因此首次购买赠送现在至2023.1.18的有效期，遇到问题可以在上面联系方式反馈，请耐心等待修复。
 
 - 7天试用版仅支持 `Arm` 指令集，且不包含重编译功能
-- 试用版下载 [点击](releases)
+- 试用版下载 [点击](https://github.com/sanfengAndroid/AntiOllvm/releases/tag/antiollvm-trial)
 - 正式版下载，请通过以上联系方式联系我
 
 ## 使用帮助

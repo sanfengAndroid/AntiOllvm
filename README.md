@@ -27,7 +27,7 @@ This software uses [retdec](https://github.com/avast/retdec) to convert binary c
    - WeChat public account: sanfengAndroid逆向安全
    - QQ group: [839141004](https://jq.qq.com/?_wv=1027&k=vNKrvgND)
 - At present, there may be some problems. The first purchase gift is valid until 01/18/2023. If you encounter any problems, you can report it through the contact information above. Please be patient and wait for the repair.
-- Trial version download [click](releases)
+- Trial version download [click](https://github.com/sanfengAndroid/AntiOllvm/releases/tag/antiollvm-trial)
 - Download the official version, please contact me through the above contact information 
 
 ## Using help
