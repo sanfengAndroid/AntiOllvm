@@ -22,7 +22,7 @@
 - 使用命令  
   ```shell
   antiollvm.exe --config D:\retdec\install\share\retdec\decompiler-config.json .\libnative-lib.so --select-ranges 0x26300-0x26698,0x1b89c-0x1c918 --select-functions JNI_OnLoad
-  antiollvm.exe --config D:\retdec\install\share\retdec\decompiler-config.json .\libnative-lib.so --select-ranges 0x1d1e8-26300
+  antiollvm.exe --config D:\retdec\install\share\retdec\decompiler-config.json .\libnative-lib.so --select-ranges 0x1d1e8-0x26300
   ```
   第一条命令3个函数体较小，可以一次性去混淆。sub_1D1E8 函数较大单独运行避免占用内存太多
 
