@@ -18,8 +18,20 @@ This software uses [retdec](https://github.com/avast/retdec) to convert binary c
 |    				| China |Other Regions|Binding Device|Number of Bindings|Features Restrictions 					  |Follow-up Feature Restrictions|     Bonus     |Windows x64| Linux  x64       |macOS      		  |
 |:--:				|:----: |:------:	  |:------:		 |:------:			|:------: 							   	  |:----------:					 |:-------------:|:----: 	 |:-----: 		   |:----:  		  |
 |Trial				|   \   |    \   	  |   \    		 |    \   			|Only Arm, does not support recompilation |   \        					 |       \       | Support   |Subsequent opening|Subsequent opening|
-|Annual subscription|9600￥ |  1650\$	  |  1 device  	 |    1 time  		|  None     							  |Additional charges may apply  | Now-01/18/2023| Support   |Subsequent opening|Subsequent opening|
-|Permanent			|38000￥|  6800\$	  |  1 device    |   10 times   	|  None     							  | None 						 |     Unlimited | Support   |Subsequent opening|Subsequent opening|
+|Annual subscription|9600￥ |  1650\$	  |  1 device  	 |    3 time  		|  None     							  |Additional charges may apply  | Now-01/18/2023| Support   |Subsequent opening|Subsequent opening|
+|Permanent			|38000￥|  6800\$	  |  1 device    |   15 times   	|  None     							  | None 						 |     Unlimited | Support   |Subsequent opening|Subsequent opening|
+
+- Purchase example
+   - For example, if you purchase 1 year on 01/15/2022, the actual validity period is 01/15/2022 - 01/18/2024, and if you purchase two years, the validity period is 01/15/2022 - 01/18/2025 and so on.
+   - For example, if you purchase 1 year on 06/01/2022, the validity period is 06/01/2022 - 01/18/2024
+   - Purchase after 01/18/2023, such as 02/01/2023 purchase for one year, the validity period is 02/01/2023 - 02/01/2024
+   - There is no limit to the validity period if you purchase the permanent version
+- Binding device restrictions
+   - At present, both annual and permanent users can only bind one device at the same time.
+- Example of binding times
+   - The number of bindings will not be deducted for the first binding of the device
+   - For example, if you want to change computer after binding computer A, you must first unbind it on computer A and then bind it on computer B. At the same time, the number of bindings will be deducted once. When the number of bindings is 0, the device cannot be changed.
+   - Computer A can be windows/linux/mac, computer B can also be windows/linux/mac, that is to say, it can be bundled with the same system, or it can be bundled with different systems 
 
 - Contact information
    - Telegram Group [t.me/antiollvm](https://t.me/antiollvm)
@@ -29,6 +41,12 @@ This software uses [retdec](https://github.com/avast/retdec) to convert binary c
 - At present, there may be some problems. The first purchase gift is valid until 01/18/2023. If you encounter any problems, you can report it through the contact information above. Please be patient and wait for the repair.
 - Trial version download [click](https://github.com/sanfengAndroid/AntiOllvm/releases/tag/antiollvm-trial)
 - Download the official version, please contact me through the above contact information 
+
+## Current development timeline
+1. Add [goron](https://github.com/amimo/goron) version of indirect jump to de-obfuscate
+2. Enable `mac x86`, `mac arm`, `Linux X64` versions
+
+Please follow the official account or join the above `TG` `QQ` group for the latest news 
 
 ## Using help
 [Click](doc/README.md) 
